@@ -1,4 +1,7 @@
 <?php
+/*
+5.Write a PHP function to find the second largest number in an array of numbers.
+*/
 function find_second_largest($arr) {
     $max = $arr[0];
     $second_max = $arr[0];

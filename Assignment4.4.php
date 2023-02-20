@@ -1,4 +1,7 @@
 <?php
+/*
+4.Write a PHP function to check if a string contains only letters and whitespace.
+*/
 function only_letters_and_whitespace($str) {
     return preg_match('/^[a-zA-Z\s]+$/', $str);
   }
